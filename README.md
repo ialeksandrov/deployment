@@ -42,4 +42,4 @@ and then apply configuration from a control node.
 
 To start the Ansible playbook you can use the following command:\
 ansible-playbook os-update.yml --ask-become-pass\
-ansible-playbook deploy-monitoring --ask-become-pass
+ansible-playbook deploy-monitoring.yml --ask-become-pass
