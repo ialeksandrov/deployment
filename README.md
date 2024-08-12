@@ -39,3 +39,7 @@ The right way is to have a hosts file (also called inventory file) with the foll
 <ip/dns of the monitoring instance>
 
 and then apply configuration from a control node.
+
+To start the Ansible playbook you can use the following command:\
+ansible-playbook os-update.yml --ask-become-pass\
+ansible-playbook deploy-monitoring --ask-become-pass
