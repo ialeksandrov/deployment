@@ -35,7 +35,7 @@ NOTE:
 It is not the power of ansible to use it locally, but in this case is easier for testing.
 The right way is to have a hosts file with the following configuration:
 
-[monitoring]
+[monitoring]\
 <ip/dns of the monitoring instance>
 
 and then apply configuration from a control node.
