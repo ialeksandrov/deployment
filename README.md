@@ -27,3 +27,15 @@ Prometheus can pull data and this data can be easily visualized in Grafana after
 
 All these directories are Ansible roles generated with ansible-galaxy.
 You can see templating using Jinja2 in the roles.
+
+You need to configure a Prometheus datasource to install a Postgres dashboard to see the metrics.
+in the datasource configuration "Prometheus server URL: http://localhost:9090" because we are deploying it locally.
+
+NOTE:
+It is not the power of ansible to use it locally, but in this case is easier for testing.
+The right way is to have a hosts file with the following configuration:
+
+[monitoring]
+<ip/dns of the monitoring instance>
+
+and then apply configuration from a control node.
