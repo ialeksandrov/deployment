@@ -33,7 +33,7 @@ in the datasource configuration "Prometheus server URL: http://localhost:9090" b
 
 NOTE:
 It is not the power of ansible to use it locally, but in this case is easier for testing.
-The right way is to have a hosts file with the following configuration:
+The right way is to have a hosts file (also called inventory file) with the following configuration:
 
 [monitoring]\
 <ip/dns of the monitoring instance>
