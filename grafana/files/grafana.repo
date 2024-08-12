@@ -1,0 +1,7 @@
+[grafana]
+name=grafana
+baseurl={{ grafana_repo_url }}
+repo_gpgcheck=1
+enabled=1
+gpgcheck=1
+gpgkey={{ grafana_gpg_key }}
